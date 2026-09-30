@@ -18,10 +18,7 @@ public class Main {
 
         double volume = PHI * r * r * t;
 
-        String strR = (r % 1 == 0) ? String.format("%.0f", r) : String.valueOf(r);
-        String strT = (t % 1 == 0) ? String.format("%.0f", t) : String.valueOf(t);
-
-        System.out.printf("Volume tabung dengan jari-jari %s cm dan tinggi %s cm adalah %.3f m3\n", strR, strT, volume);
+        System.out.printf("Volume tabung dengan jari-jari %s cm dan tinggi %s cm adalah %.3f m3\n", R, T, volume);
 
         input.close();
     }
